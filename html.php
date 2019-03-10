@@ -7,7 +7,7 @@
 <html>
     <head>
         <title><?php echo $title ?></title>
-        <?php if( $favicon ): ?>
+        <?php if ($favicon): ?>
             <link rel="shortcut icon" type="image/png" href="<?php echo $favicon; ?>"/>
         <?php endif; ?>
         <meta charset="utf-8" />

@@ -1,6 +1,6 @@
 <!-- Header -->
 <header id="header" class="alt">
-    <?php if( $logo ): ?>
+    <?php if ($logo): ?>
         <span class="logo">
             <a href="<?php echo $base_path; ?>">
                 <img src="<?php echo $logo; ?>" alt="Logo site" class="img-responsive logo">
