@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="<?php echo $base_theme; ?>assets/css/main.css" />
         <link rel="stylesheet" href="<?php echo $base_theme; ?>assets/css/layout.css" />
         <link rel="stylesheet" href="<?php echo $base_theme; ?>assets/css/style.css" />
+        <link rel="stylesheet" href="<?php echo $base_theme; ?>assets/css/admin.css" />
         <noscript><link rel="stylesheet" href="<?php echo $base_theme; ?>assets/css/noscript.css" /></noscript>
         <?php echo $styles ?>
         <script src="<?php echo $base_theme; ?>assets/js/jquery.min.js"></script>

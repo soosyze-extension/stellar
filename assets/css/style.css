@@ -23,6 +23,9 @@ fieldset legend{
 .logo a{
     border-bottom: 0;
 }
+button{
+    font-size: inherit;
+}
 /* TABLE DIV */
 .div-thead tr th,
 .div-thead{
@@ -73,20 +76,20 @@ fieldset legend{
     margin-top: 5px;
 }
 .alert-info{
-    background-color: #1a92bb;
-    border-color: #0386b3;
+    background-color: #6573a8;
+    border-color: #4e5a7f;
 }
 .alert-success{
-    background-color: #33ad51;
-    border-color: #009926;
+    background-color: #66aa6e;
+    border-color: #4c7f50;
 }
 .alert-warning{
-    background-color: #33ad51;
-    border-color: #dd9f3a;
+    background-color: #a88e65;
+    border-color: #7f6a4e;
 }
 .alert-danger{
-    background-color: #e17572;
-    border-color: #D9534F;
+    background-color: #a56565;
+    border-color: #7f4e4e;
 }
 /* NODE */
 .icon-publish,
@@ -97,12 +100,12 @@ fieldset legend{
     width: 32px;
 }
 .icon-notPublish{
-    color: #d14;
-    background-color: #d14;
+    color: #7f4e4e;
+    background-color: #a56565;
 }
 .icon-publish{
-    color: #2ecc71;
-    background-color: #2ecc71;
+    color: #4c7f50;
+    background-color: #66aa6e;
 }
 .icon-publish span,
 .icon-notPublish span{
@@ -112,10 +115,10 @@ fieldset legend{
     position: absolute;
 }
 .icon-notPublish span{
-    color: #d14;
+    color: #7f4e4e;
 }
 .icon-publish span{
-    color: #2ecc71;
+    color: #4c7f50;
 }
 /* MODULES */
 .module-is_required,

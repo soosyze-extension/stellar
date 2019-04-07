@@ -19,6 +19,9 @@
             <div class="content">
                 <header class="major">
                     <h2><?php echo $title_main; ?></h2>
+                    <?php if (!empty($block[ 'messages' ])): ?>
+                        <?php echo $block[ 'messages' ]; ?>
+                    <?php endif; ?>
                 </header>
                 <?php echo $block[ 'content' ] ?>
             </div>
