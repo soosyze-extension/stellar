@@ -1,13 +1,13 @@
 <!DOCTYPE HTML>
 <!--
-        Stellar by HTML5 UP
-        html5up.net | @ajlkn
-        Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    Stellar by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
     <head>
         <title><?php echo $title ?></title>
-        <?php if ($favicon): ?>
+        <?php if( $favicon ): ?>
             <link rel="shortcut icon" type="image/png" href="<?php echo $favicon; ?>"/>
         <?php endif; ?>
         <meta charset="utf-8" />

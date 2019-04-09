@@ -10,10 +10,12 @@
     <h1><?php echo $title; ?></h1>
     <p>Just another free, fully responsive site template.</p>
 </header>
+
 <!-- Nav -->
 <nav id="nav">
     <?php echo $block[ 'main_menu' ]; ?>
 </nav>
+
 <!-- Main -->
 <div id="main">
     <section id="intro" class="main">
@@ -30,6 +32,7 @@
         </div>
     </section>
 </div>
+
 <!-- Footer -->
 <footer id="footer">
     <section>
@@ -39,6 +42,7 @@
             Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, 
             vitae tincidunt odio.</p>
     </section>
+
     <section>
         <h2>Etiam feugiat</h2>
         <dl class="alt">
@@ -51,7 +55,9 @@
         </dl>
         <?php echo $block[ 'second_menu' ]; ?>
     </section>
-    <p class="copyright">Power by <a href="http://soosyze.com/">SoosyzeCMS</a> |  
-        Built by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a>.
+
+    <p class="copyright">
+        Built by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a> | 
+        Power by <a href="https://soosyze.com">SoosyzeCMS</a>.
     </p>
 </footer>

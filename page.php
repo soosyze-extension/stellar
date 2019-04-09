@@ -49,8 +49,9 @@
         </dl>
         <?php echo $block[ 'second_menu' ]; ?>
     </section>
-    <p class="copyright">Power by <a href="http://soosyze.com/">SoosyzeCMS</a> |  
-        Built by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a>.
+    <p class="copyright">
+        Built by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a> | 
+        Power by <a href="http://soosyze.com/">SoosyzeCMS</a>.
     </p>
 </footer>
 
