@@ -25,7 +25,7 @@
     <body class="is-preload">
         <!-- Wrapper -->
         <div id="wrapper">
-            <?php echo $block[ 'page' ] ?>
+            <?php echo $section[ 'page' ] ?>
         </div>
         <!-- Scripts -->
         <script src="<?php echo $base_theme; ?>assets/js/jquery.min.js"></script>

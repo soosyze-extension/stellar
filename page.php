@@ -10,7 +10,7 @@
 </header>
 <!-- Nav -->
 <nav id="nav">
-    <?php echo $block[ 'main_menu' ]; ?>
+    <?php echo $section[ 'main_menu' ]; ?>
 </nav>
 <!-- Main -->
 <div id="main">
@@ -19,11 +19,11 @@
             <div class="content">
                 <header class="major">
                     <h2><?php echo $title_main; ?></h2>
-                    <?php if (!empty($block[ 'messages' ])): ?>
-                        <?php echo $block[ 'messages' ]; ?>
+                    <?php if (!empty($section[ 'messages' ])): ?>
+                        <?php echo $section[ 'messages' ]; ?>
                     <?php endif; ?>
                 </header>
-                <?php echo $block[ 'content' ] ?>
+                <?php echo $section[ 'content' ] ?>
             </div>
         </div>
     </section>
@@ -54,7 +54,7 @@
             <li><a href="#" class="icon fab fa-github alt"><span class="label">GitHub</span></a></li>
             <li><a href="#" class="icon fab fa-dribbble alt"><span class="label">Dribbble</span></a></li>
         </ul>
-        <?php echo $block[ 'second_menu' ]; ?>
+        <?php echo $section[ 'second_menu' ]; ?>
     </section>
     <p class="copyright">
         Built by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a> | 
