@@ -2051,6 +2051,7 @@ select {
 
 textarea {
     padding: 0.75em 1em;
+    resize: vertical;
 }
 
 input[type="checkbox"],
@@ -3267,7 +3268,7 @@ body.is-preload #header.alt .logo {
     background-color: rgba(247, 247, 247, 0.95);
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-    z-index: 10000;
+    z-index: 100;
 }
 
 #nav.alt ul li {
