@@ -25,40 +25,6 @@ fieldset legend{
 button{
     font-size: inherit;
 }
-/* TABLE DIV */
-.div-thead tr th,
-.div-thead{
-    background-color: #615295;
-    color: #fff !important;
-    font-family: "Open Sans","Segoe UI","Helvetica",sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-.div-thead tr th,
-.div-thead div{
-    padding: 1em 0 1em 1em !important;
-}
-.div-tbody{
-    padding-bottom: 15px;
-    padding-top: 15px;
-}
-.div-tbody div{
-    padding-bottom: .2em;
-}
-.div-tbody h3,
-.div-tbody h4{
-    margin: 0;
-    padding: 0;
-}
-.div-tbody:hover {
-    background-color: #eee;
-    -webkit-transition: background-color .2s;
-    -moz-transition: background-color .2s;
-    -ms-transition: background-color .2s;
-    -o-transition: background-color .2s;
-    transition: background-color .2s;
-}
 /* ALERTE */
 .alert{
     border-left: 5px solid;
