@@ -6,7 +6,7 @@
             </a>
         </span>
     <?php endif; ?>
-    <h2><a href="<?php echo $base_path; ?>"><?php echo $title; ?></a></h2>
+    <h2><a href="<?php echo $base_path; ?>"><?php echo htmlspecialchars($title); ?></a></h2>
     <?php if (!empty($section[ 'header' ])): ?>
         <?php echo $section[ 'header' ]; ?>
     <?php endif; ?>
@@ -21,15 +21,20 @@
         <div class="spotlight">
             <div class="content">
                 <header class="major">
-                    <h2><?php echo $title_main; ?></h2>
+                    <h2><?php echo htmlspecialchars($title_main); ?></h2>
                     <?php if (!empty($section[ 'messages' ])): ?>
                         <?php echo $section[ 'messages' ]; ?>
                     <?php endif; ?>
                 </header>
+
                 <?php if (!empty($section[ 'content_header' ])): ?>
                     <?php echo $section[ 'content_header' ]; ?>
                 <?php endif; ?>
+
+                <?php echo $section[ 'submenu' ]; ?>
+
                 <?php echo $section[ 'content' ]; ?>
+
                 <?php if (!empty($section[ 'content_footer' ])): ?>
                     <?php echo $section[ 'content_footer' ]; ?>
                 <?php endif; ?>

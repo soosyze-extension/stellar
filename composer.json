@@ -2,9 +2,15 @@
     "name": "soosyze-extension/stellar",
     "type": "soosyze-theme",
     "description": "Say hello to Stellar, a slick little one-pager with a super vibrant color palette (which I guess you can always tone down if it's a little too vibrant for you).",
-    "version": "1.0",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "SoosyzeApp\\Theme\\Stellar\\": "/"
+        }
+    },
     "extra": {
-        "soosyze-theme": {
+        "soosyze": {
+            "title": "Stellar",
             "sections": [
                 "header",
                 "content_header",

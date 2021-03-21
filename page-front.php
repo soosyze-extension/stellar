@@ -7,7 +7,7 @@
             </a>
         </span>
     <?php endif; ?>
-    <h1><?php echo $title; ?></h1>
+    <h1><?php echo htmlspecialchars($title); ?></h1>
     <p>Just another free, fully responsive site template.</p>
 </header>
 
@@ -27,6 +27,9 @@
                         <?php echo $section[ 'messages' ]; ?>
                     <?php endif; ?>
                 </header>
+
+                <?php echo $section[ 'submenu' ]; ?>
+
                 <?php echo $section[ 'content' ] ?>
             </div>
         </div>

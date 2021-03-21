@@ -5,13 +5,15 @@
             <?php foreach ($news as $new): ?>
 
                 <article>
-                    <img src="<?php echo $new[ 'field' ][ 'image' ][ 'field_value' ]; ?>" alt="Illustration <?php echo $new[ 'title' ]; ?>">
-                    <h3><a href="<?php echo $new[ 'link_view' ]; ?>"><?php echo $new[ 'title' ]; ?></a></h3>
+                    <img src="<?php echo htmlspecialchars($new[ 'field' ][ 'image' ][ 'field_value' ]); ?>" alt="Illustration <?php echo t($new[ 'title' ]); ?>">
+                    <h3><a href="<?php echo $new[ 'link_view' ]; ?>"><?php echo t($new[ 'title' ]); ?></a></h3>
                     <small><?php echo date('F d, Y', $new[ 'date_created' ]); ?></small>
-                    <small> ~<?php echo $new[ 'field' ][ 'reading_time' ][ 'field_value' ] . ' ' . t('minute(s)'); ?></small>
+                    <small> ~<?php echo $new[ 'field' ][ 'reading_time' ][ 'field_value' ]
+                            . ' '
+                            . t(if_or($new[ 'field' ][ 'reading_time' ][ 'field_value' ] === 1, 'minute', 'minutes')); ?></small>
                     <p><?php echo $new[ 'field' ][ 'summary' ][ 'field_display' ]; ?></p>
                     <ul class="actions">
-                        <li><a href="<?php echo $new[ 'link_view' ]; ?>" class="button">En savoir plus</a></li>
+                        <li><a href="<?php echo $new[ 'link_view' ]; ?>" class="button"><?php echo t('Learn more'); ?></a></li>
                     </ul>
                 </article>
             <?php endforeach; ?>
